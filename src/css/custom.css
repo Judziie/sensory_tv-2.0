@@ -1,0 +1,59 @@
+:root {
+  --ifm-color-primary: #00AEEF;       /* Light blue */
+  --ifm-color-secondary: #000000;     /* Black */
+  --ifm-color-background: #ffffff;    /* White */
+
+  --ifm-color-grey-light: #F2F2F2;
+  --ifm-color-grey-medium: #D9D9D9;
+  --ifm-color-grey-dark: #666666;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--ifm-color-background);
+  border-bottom: 1px solid var(--ifm-color-grey-medium);
+}
+
+.navbar__title, .navbar__brand {
+  color: var(--ifm-color-secondary);
+}
+
+/* Links */
+a {
+  color: var(--ifm-color-primary);
+}
+a:hover {
+  color: var(--ifm-color-secondary);
+}
+
+/* Buttons */
+.button, button {
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-background);
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+.button:hover, button:hover {
+  background-color: var(--ifm-color-secondary);
+}
+
+/* Cards / Panels */
+.card, .card__body {
+  background-color: var(--ifm-color-grey-light);
+  border: 1px solid var(--ifm-color-grey-medium);
+  border-radius: 8px;
+}
+
+/* Headings / text */
+h1,h2,h3,h4,h5,h6 {
+  color: var(--ifm-color-secondary);
+}
+body, p, li {
+  color: var(--ifm-color-secondary);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--ifm-color-grey-light);
+  color: var(--ifm-color-secondary);
+}
