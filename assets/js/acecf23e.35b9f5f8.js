@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksensory_tv_2_0=globalThis.webpackChunksensory_tv_2_0||[]).push([[284],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/sensory_tv-2.0/blog","blogTitle":"Blog","authorsListPath":"/sensory_tv-2.0/blog/authors"}')}}]);
